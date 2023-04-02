@@ -22,7 +22,7 @@ with open("testdata.txt", 'r') as readerfile:
             #    writeline = writeline + "\n"
             writerfile.write(writerline)
 
-readingfile = open("testdata1.txt", 'r')
-readingfile.seek(0)
-print(readingfile.readlines())
-readingfile.close()
+
+with open("testdata1.txt", 'r') as readingfile:
+    readingfile.seek(0)
+    print(readingfile.readlines())
