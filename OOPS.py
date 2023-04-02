@@ -19,22 +19,22 @@ class Calculator:
         print("print data () executed")
 
     def adddata(self):
-        print(self.x + self.y)
+        print(self.x + self.y, "adddata()")
 
     def subdata(self):
-        print(self.x - self.y)
+        print(self.x - self.y, "subdata()")
 
     def summing(self):
-        print(self.x + self.y + Calculator.num)
+        return self.x + self.y + Calculator.num
 
     def subing(self):
-        print(self.x - self.y + self.num)
+        print(self.x - self.y + self.num, "subing()")
 
 calc = Calculator(4, 6) #syntax to create objects in python
 calc.printdata()
 print(calc.num)
 calc.adddata()
-calc.summing()
+print(calc.summing())
 
 calc1 = Calculator(16, 4)
 calc1.printdata()
