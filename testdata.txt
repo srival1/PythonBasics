@@ -1,5 +1,5 @@
-Elephant
-Dog
-Cat
-Ball
 Apple
+Ball
+Cat
+Dog
+Elephant
