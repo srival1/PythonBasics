@@ -54,4 +54,3 @@ print(dict)
 excel = pd.ExcelFile("C:\\Users\\srika\\PycharmProjects\\PythonBasics\\signup_info.xlsx")
 data = excel.parse(excel.sheet_names[0])
 print(data.to_dict())
-"""
