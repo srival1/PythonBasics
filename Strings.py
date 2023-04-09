@@ -7,6 +7,11 @@ print(str1[0:5])
 print(str1[5:11])
 print(str1[11:18])
 
+str4 = "12/31/2000"
+print(str4[0:2])
+print(str4[3:5])
+print(str4[6:])
+
 print(str1+str2)    #concatenate str with str
 print(str1+" is # {} online tutor".format(int1)) #concatenate int with str
 
